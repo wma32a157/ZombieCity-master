@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fcf7219bab7fe46a1ad266029b2fee19, type: 3}
+  m_Name: Readme
+  m_EditorClassIdentifier: 
+  icon: {fileID: 2800000, guid: 77472013561064748becf0b9cdaa5628, type: 3}
+  title: 'Advanced Animation Rigging: Character and Props interaction'
+  sections:
+  - heading: 'Advanced Animation Rigging: Character and Props interaction'
+    text: 'Earlier this year we introduced the Animation Rigging package. Our initial
+      goal was to provide a suite of constraints that can be used to create different
+      rigs to alter or modify your animation at runtime.   We''ve been exploring many
+      of the possibilities that this package offers, pushing the boundaries between
+      runtime and authoring. This article sheds light on some of our recent Animation
+      Rigging experiments. PLEASE be aware that the state machine in the following
+      example is experimental, not necessarily representative of a viable production
+      example. We are simply exploring how a technical animator might author constraint
+      interactions with a state machine without needing to write any code.  We hope
+      this article will inspire you to explore and discover new ways to address the
+      animation challenges you face every day. To build a viable and complete animation
+      solution, we believe it''s in our best interest to find out what you discovered
+      and what you need. '
+    linkText: 
+    url: 
+  - heading: 
+    text: 'The Animation Rigging Package is currently in preview so it is still subject
+      to changes (API, UX, scope). As such, it is not covered by regular Unity support.
+      Please direct any questions to the:'
+    linkText: Animation Rigging Preview Forum Post
+    url: https://forum.unity.com/threads/new-animation-rigging-preview-package-available-for-unity-2019-1.661975/
+  - heading: 
+    text: 'To read more about the Animation Rigging Package, see the documentation
+      site: '
+    linkText: Animation Rigging Package Documentation Site
+    url: https://docs.unity3d.com/Packages/com.unity.animation.rigging@0.2/manual/index.html
+  - heading: Ninja Player Controls
+    text: "W/\u21D1: Move Forward,  S/\u21D3: Move Backward, A/\u21D0: Move Left,
+      S/\u21D2: Move Right, Tab: Holster/Switch Weapon, LMB/Ctrl: Fire 1 (Single Fire),
+      RMB/Alt: Fire 2 (Automatic Fire), MMB/Space: Reload (Assault-Rifle & Pistol)"
+    linkText: 
+    url: 
+  - heading: 
+    text: 
+    linkText: 
+    url: 
+  - heading: 
+    text: 
+    linkText: 
+    url: 
+  loadedLayout: 0
